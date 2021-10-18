@@ -22,8 +22,8 @@
                 </div>
                 <!-- end page title -->
 
-                <div class="row">
-                    <div class="col-xl-12">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8">
                         <div class="card overflow-hidden">
                             <div class="bg-primary bg-soft">
                                 <div class="row">
