@@ -18,8 +18,9 @@
 
 
                 <li class="menu-title" key="t-apps">Management</li>
-                <li>
-                    <a href="javascript: void(0);" class="waves-effect">
+                <li class=" {{ in_array($curr_url,['users.index','users.create','users.edit'])?'mm-active':'' }}">
+                    <a href="{{ route('users.index') }}"
+                        class="waves-effect {{ in_array($curr_url,['users.index','users.create','users.edit'])?'active':'' }}">
                         <i class="bx bx-user-circle"></i>
                         <span key="t-authentication">Users</span>
                     </a>
