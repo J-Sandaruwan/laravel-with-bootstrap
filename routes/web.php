@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Index\IndexController as IC;
+use App\Http\Controllers\User\UserController as UC;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,3 +19,6 @@ use Illuminate\Support\Facades\Route;
 
 // Index
 Route::get('/', [IC::class, "index"])->name('index');
+
+// Users
+Route::resource('users', UC::class);
