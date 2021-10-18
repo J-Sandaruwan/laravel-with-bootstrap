@@ -44,9 +44,11 @@
                     </x-jet-secondary-button>
                     @endif
 
-                    <x-jet-input-error for="photo" class="mt-2" />
                 </div>
                 @endif
+                @error('photo')
+                <div class="text-danger"> {{ ($message )}}</div>
+                @enderror
             </div>
 
             <div class="col-lg-6">
