@@ -4,6 +4,7 @@
 <head>
 
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title','Okto Zone')</title>
     <meta name="description" content="@yield('description','Okto Zone')" />
 
@@ -27,7 +28,7 @@
     <header id="page-topbar">
         <div class="navbar-header">
             <div class="d-flex">
-             
+
 
             </div>
 
