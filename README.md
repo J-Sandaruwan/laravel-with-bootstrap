@@ -4,4 +4,6 @@
 <a href="#"><img src="https://visitor-badge.glitch.me/badge?page_id=J-Sandaruwan.laravel-with-bootstrap" alt="Build Status"></a>
 </p>
 
-# Bootstrap Auth Laravel 8
+# Bootstrap With Laravel 8
+
+:computer: [ Laravel 8 with Bootstrap ](https://dev.to/jsandaruwan/laravel-8-with-bootstrap-58bm)
