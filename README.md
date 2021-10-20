@@ -6,4 +6,4 @@
 
 # Bootstrap With Laravel 8
 
-:computer: [ Laravel 8 with Bootstrap ](https://dev.to/jsandaruwan/laravel-8-with-bootstrap-58bm)
+:computer: <a href="https://dev.to/jsandaruwan/laravel-8-with-bootstrap-58bm" target="_blank">Laravel 8 with Bootstrap</a>
