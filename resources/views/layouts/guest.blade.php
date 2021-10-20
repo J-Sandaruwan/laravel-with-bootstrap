@@ -5,19 +5,21 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title','Okto Zone')</title>
-    <meta name="description" content="@yield('description','Okto Zone')" />
+    <title>@yield('title','Okto Tech Zone')</title>
 
-    <meta property="og:title" content="@yield('ogtitle','Okto Zone')" />
+    <meta name="description" content="@yield('description','Okto Tech Zone')">
+    <meta name="keywords" content="Okto Tech">
+
+    <meta property="og:title" content="@yield('ogtitle','Okto Tech Zone')" />
     <meta property="og:url" content="{{Request::url()}}" />
 
     <meta property="og:type" content="@yield('ogtype','website')" />
 
-    <meta property="og:image" content="@yield('ogimage',asset('/images/logo.svg') )" />
-    <meta property="og:image:secure_url" content="@yield('ogimage', asset('/images/logo.svg') )" />
+    <meta property="og:image" content="@yield('ogimage',asset('images/oglogo.gif') )" />
+    <meta property="og:image:secure_url" content="@yield('ogimage', asset('images/oglogo.gif') )" />
     <meta property="og:image:width" content="@yield('ogimagewidth',500)" />
     <meta property="og:image:height" content="@yield('ogimageheight',200)" />
-    <link rel="shortcut icon" href="{{asset('/images/favicon.png')}}">
+    <link rel="icon" type="image/png" href="{{asset('images/favicon.ico')}}">
 
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
@@ -40,8 +42,9 @@
                 </div>
 
                 <div class="dropdown d-inline-block d-lg-none ms-2">
-                    <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
-                        data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn header-item noti-icon waves-effect"
+                        id="page-header-search-dropdown" data-bs-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
                         <i class="mdi mdi-magnify"></i>
                     </button>
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
