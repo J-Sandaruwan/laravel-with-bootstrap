@@ -16,11 +16,11 @@
 
     <meta property="og:type" content="@yield('ogtype','website')" />
 
-    <meta property="og:image" content="@yield('ogimage',asset('images/favicon.png') )" />
-    <meta property="og:image:secure_url" content="@yield('ogimage', asset('images/favicon.png') )" />
+    <meta property="og:image" content="@yield('ogimage',asset('images/oglogo.gif') )" />
+    <meta property="og:image:secure_url" content="@yield('ogimage', asset('images/oglogo.gif') )" />
     <meta property="og:image:width" content="@yield('ogimagewidth',500)" />
     <meta property="og:image:height" content="@yield('ogimageheight',200)" />
-    <link rel="icon" type="image/png" href="{{asset('images/favicon.png')}}">
+    <link rel="icon" type="image/png" href="{{asset('images/favicon.ico')}}">
 
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
